@@ -1,0 +1,158 @@
+/* Parametre.css */
+
+/* General container styling */
+.parametre-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Tab menu styles */
+.tab-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.tab-menu .tab-item {
+  flex: 1 1 auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.tab-menu .tab-item:hover {
+  background-color: #f1f1f1;
+}
+
+.tab-menu .tab-item.active {
+  color: #4caf50;
+  border-bottom: 2px solid #4caf50;
+  font-weight: bold;
+}
+
+/* Tab content styles */
+.tab-content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.tab-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive styles */
+
+/* Large screens */
+@media (max-width: 1024px) {
+  .parametre-container {
+    padding: 15px;
+  }
+
+  .tab-menu .tab-item {
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+
+  .tab-content {
+    padding: 15px;
+  }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 768px) {
+  .tab-menu {
+    justify-content: center;
+  }
+
+  .tab-menu .tab-item {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .tab-content h3 {
+    font-size: 20px;
+  }
+
+  .tab-content p {
+    font-size: 14px;
+  }
+}
+
+/* Small screens (smartphones) */
+@media (max-width: 480px) {
+  .parametre-container {
+    padding: 10px;
+  }
+
+  .tab-menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tab-menu .tab-item {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .tab-content {
+    padding: 10px;
+  }
+
+  .tab-content h3 {
+    font-size: 18px;
+  }
+
+  .tab-content p {
+    font-size: 12px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+  .tab-menu .tab-item {
+    font-size: 11px;
+    padding: 6px 8px;
+  }
+
+  .tab-content {
+    padding: 8px;
+  }
+
+  .tab-content h3 {
+    font-size: 16px;
+  }
+
+  .tab-content p {
+    font-size: 10px;
+  }
+}

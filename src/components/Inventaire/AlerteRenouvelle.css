@@ -1,0 +1,124 @@
+.alertes-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .alertes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .alertes-header h1 {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .alertes-header button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .alertes-header button:hover {
+    background-color: #0056b3;
+  }
+  
+  .table-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .alertes-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .alertes-table thead th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .alertes-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .alertes-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .alertes-table th, .alertes-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .alertes-table td:last-child {
+    text-align: center;
+  }
+  
+  .status-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .status-red {
+    background-color: #e74c3c;
+  }
+  
+  .status-yellow {
+    background-color: #f1c40f;
+  }
+  
+  .status-green {
+    background-color: #2ecc71;
+  }
+  
+  .alertes-pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alertes-pagination button {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .alertes-pagination button:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .alertes-pagination .active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  

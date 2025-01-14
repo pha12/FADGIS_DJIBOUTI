@@ -1,0 +1,133 @@
+.vehicule-manage-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .vehicule-manage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .vehicule-manage-header h1 {
+    font-size: 24px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    color: #007bff;
+  }
+  
+  .ajouter-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .ajouter-btn:hover {
+    background-color: #218838;
+  }
+  
+  .vehicule-manage-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .vehicules-list h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .vehicules-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .vehicules-table th,
+  .vehicules-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .vehicules-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .vehicules-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .modifier-btn,
+  .map-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .map-btn {
+    background-color: #17a2b8;
+  }
+  
+  .modifier-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .map-btn:hover {
+    background-color: #138496;
+  }
+  

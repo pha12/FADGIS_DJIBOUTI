@@ -1,0 +1,152 @@
+.planif-opera {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh; /* Ensures the page covers the full viewport height */
+    box-sizing: border-box;
+  }
+  
+  /* Header Section */
+  .planif-opera h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #4caf50;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 24px;
+  }
+  
+  /* Form Section */
+  .operation-form {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Ensures vertical alignment */
+    gap: 15px; /* Adds spacing between form elements */
+    width: 100%;
+    max-width: 600px; /* Restricts width on larger screens */
+    margin-left: auto;
+    margin-right: auto; /* Centers the form */
+  }
+  
+  .operation-form h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+  }
+  
+  .operation-form input,
+  .operation-form textarea,
+  .operation-form button {
+    width: 100%; /* Full width for form elements */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .operation-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .operation-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .operation-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Table Section */
+  .operations-table {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .operations-table h3 {
+    margin-bottom: 15px;
+    color: #4caf50;
+  }
+  
+  .operations-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .operations-table th {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .operations-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .operations-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .operations-table .icon {
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .operations-table .edit-icon {
+    color: #ffc107;
+  }
+  
+  .operations-table .delete-icon {
+    color: #dc3545;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .operation-form {
+      padding: 15px;
+      gap: 10px;
+      max-width: 90%; /* Adjust form width on smaller devices */
+    }
+  
+    .operations-table {
+      padding: 15px;
+    }
+  
+    .operations-table table th,
+    .operations-table table td {
+      font-size: 12px; /* Smaller text for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .planif-opera h1 {
+      font-size: 20px; /* Adjust header size for small screens */
+    }
+  
+    .operation-form {
+      gap: 8px; /* Reduce spacing on smaller screens */
+    }
+  
+    .operation-form input,
+    .operation-form textarea,
+    .operation-form button {
+      font-size: 12px; /* Smaller input text size */
+    }
+  }
+  

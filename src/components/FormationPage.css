@@ -1,0 +1,71 @@
+.formations-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .formations-page .header {
+    background-color: #ffffff;
+    color: #201e1e;
+    width: 100%;
+    display: flex; /* Active Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    padding: 20px 10px;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 4px 8px rgba(230, 25, 25, 0.2);
+    margin-top: 100px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; /* Supprime l'espacement par défaut */
+    text-align: center; /* S'assure que le texte est centré */
+  }
+  
+  
+  .formations-page .submenu {
+  display: flex;
+  flex-direction: row; /* Assure une disposition horizontale */
+  gap: 10px; /* Espacement entre les boutons */
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  margin: 10px 0;
+  flex-wrap: nowrap; /* Empêche le retour à la ligne */
+}
+
+  
+  .submenu button {
+    background: transparent;
+    color: #000;
+    border: 2px solid #007BFF; /* Bordure bleue */
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .submenu button.active {
+    background-color: #20c997; /* Couleur verte pour le bouton actif */
+    color: #fff;
+    border-color: #20c997;
+  }
+  
+  .submenu button:hover {
+    background-color: #e0f7fa; /* Légère teinte au survol */
+    border-color: #007BFF;
+  }
+  
+  .content {
+    margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+  

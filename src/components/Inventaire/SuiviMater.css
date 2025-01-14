@@ -1,0 +1,100 @@
+/* SuiviMater.css */
+.suivi-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .suivi-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .suivi-header h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .suivi-header button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .suivi-header button:hover {
+    background-color: #45a049;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .suivi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .suivi-table th, .suivi-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .suivi-table th {
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .suivi-table td {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .suivi-table td .etat-fonctionnel {
+    color: green;
+  }
+  
+  .suivi-table td .etat-enreparation {
+    color: orange;
+  }
+  
+  .suivi-table td .etat-horsservice {
+    color: red;
+  }
+  
+  .suivi-table .action-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-right: 8px;
+  }
+  
+  .suivi-table .action-btn.edit {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  .suivi-table .action-btn.edit:hover {
+    background-color: #e68900;
+  }
+  
+  .suivi-table .action-btn.delete {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .suivi-table .action-btn.delete:hover {
+    background-color: #d32f2f;
+  }
+  

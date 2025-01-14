@@ -1,0 +1,4 @@
+5. Infrastructure nécessaire pour l'intégration :
+Backend : Un serveur pour recevoir et stocker les coordonnées GPS (ex. Node.js, Python).
+Frontend : Une interface utilisateur comme LocaliVehicule pour visualiser les positions sur une carte.
+Base de données : Une table dédiée pour stocker les coordonnées et associer chaque GPS à son véhicule.

@@ -1,0 +1,103 @@
+.roles-utilisateurs {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .roles-utilisateurs h1 {
+    text-align: center;
+    color: #2b7a5e;
+    margin-bottom: 20px;
+  }
+  
+  .role-selection {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .role-selection label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .role-selection select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .permissions-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .permission-category {
+    margin-bottom: 20px;
+  }
+  
+  .permission-category h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .permission-category ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .permission-category li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .permission-category input {
+    margin-right: 10px;
+  }
+  
+  .save-btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .save-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .roles-utilisateurs {
+      padding: 15px;
+    }
+  
+    .role-selection select {
+      width: 100%;
+    }
+  
+    .permission-category h3 {
+      font-size: 18px;
+    }
+  
+    .save-btn {
+      width: 100%;
+    }
+  }
+  
